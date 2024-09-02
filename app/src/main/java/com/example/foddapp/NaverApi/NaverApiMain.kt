@@ -9,8 +9,8 @@ import java.nio.charset.StandardCharsets
 class NaverApiMain {
     suspend fun NaverApi(q: String): String { // 주소와 취향 음식류 등의 정보를 매계변수로 전해주어 식당의 정보, 링크를 통신을 통해 받아오는 함수
         return withContext(Dispatchers.IO) {
-            val clientId = "LehvnolDvQ3Dh4hnnT0E"
-            val clientSecret = "6eLKj1UnTr"
+            val clientId = NaverID.Id
+            val clientSecret = NaverID.Secret
             val query = q
 
 
@@ -35,8 +35,8 @@ class NaverApiMain {
 
     suspend fun NaverApiImage(q:String): String {// 이미지 검색 인터페이스 구현
         return withContext(Dispatchers.IO) {
-            val clientId = "LehvnolDvQ3Dh4hnnT0E"
-            val clientSecret = "6eLKj1UnTr"
+            val clientId = NaverID.Id
+            val clientSecret = NaverID.Secret
             val query = q
 
             val apiService = ApiClient.ImageCreate()
