@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Activities.JoinActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:text="회원가입"
+            android:textSize="10pt"
+            android:fontFamily="@font/maplestorybold"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            tools:context=".Activities.JoinActivity">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="ID  "
+                android:textSize="10pt"
+                android:gravity="right"
+                android:fontFamily="@font/maplestorybold"
+                />
+
+            <EditText
+                android:id="@+id/id"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/text1"
+                android:fontFamily="@font/maplestorybold"
+                />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/exist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="중복확인"
+            android:textSize="10pt"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/maplestorybold"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            tools:context=".Activities.JoinActivity">
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="비밀번호  "
+                android:textSize="10pt"
+                android:gravity="right"
+                android:fontFamily="@font/maplestorybold"
+                />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/text2"
+                android:fontFamily="@font/maplestorybold"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="양식, 한식, 일식, 중식 중 작성하시오"
+            android:textSize="10pt"
+            android:gravity="center"
+            android:fontFamily="@font/maplestorybold"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            tools:context=".Activities.JoinActivity">
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="1순위  "
+                android:textSize="10pt"
+                android:gravity="right"
+                android:fontFamily="@font/maplestorybold"
+                />
+
+            <EditText
+                android:id="@+id/one"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/text3"
+                android:fontFamily="@font/maplestorybold"
+                />
+
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="2순위  "
+                android:textSize="10pt"
+                android:gravity="right"
+                android:layout_toRightOf="@+id/one"
+                android:fontFamily="@font/maplestorybold"
+                />
+
+            <EditText
+                android:id="@+id/two"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/text4"
+                android:fontFamily="@font/maplestorybold"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            tools:context=".Activities.JoinActivity">
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="3순위  "
+                android:textSize="10pt"
+                android:gravity="right"
+                android:fontFamily="@font/maplestorybold"
+                />
+
+            <EditText
+                android:id="@+id/three"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/text5"
+                android:fontFamily="@font/maplestorybold"
+                />
+
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="4순위  "
+                android:textSize="10pt"
+                android:gravity="right"
+                android:layout_toRightOf="@+id/three"
+                android:fontFamily="@font/maplestorybold"
+                />
+
+            <EditText
+                android:id="@+id/four"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/text6"
+                android:fontFamily="@font/maplestorybold"
+                />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop = "40dp"
+            tools:context=".Activities.JoinActivity">
+
+            <Button
+                android:id="@+id/crate"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:text = "계정 생성"
+                android:fontFamily="@font/maplestorybold"/>
+
+
+            <Button
+                android:id="@+id/down"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="70dp"
+                android:text="뒤로가기"
+                android:fontFamily="@font/maplestorybold"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</layout>
