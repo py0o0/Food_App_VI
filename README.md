@@ -68,5 +68,5 @@
 | 로그인 화면 | 회원가입 화면 | 
 |:-------:|:-------:|
 | <img src="https://github.com/user-attachments/assets/eb266025-eb90-4f14-a581-fdd5b490aac2" alt="Login 2" width="50%" height="auto"> | <img src="https://github.com/user-attachments/assets/58bb06c7-59ed-4105-b10a-a34df3866146" alt="CreateAcount" width="50%" height="auto"> | 
-| 메인 화면  | 추천 화면  |
+| **메인 화면**  | **추천 화면**  |
 | <img src="https://github.com/user-attachments/assets/33886086-6a40-47b2-98d6-13082a73cb9b" alt="Main" width="50%" height="auto"> | <img src="https://github.com/user-attachments/assets/1106ad95-028b-401e-a598-f3962042beb9" alt="Recommand" width="50%" height="auto"> | 
