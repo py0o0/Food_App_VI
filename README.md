@@ -23,7 +23,7 @@
 
 | Backend | Backend | 
 |:-------:|:-------:|
-| <img src="https://github.com/user-attachments/assets/03b048bc-9299-4c6b-a084-57fbc3da9499" alt="증사 2" width="150" height="200"> | <img src="https://github.com/user-attachments/assets/44c5ca02-64c7-4a53-8e27-dc125462651d" alt="프로필" width="150" height="200"> | 
+| <img src="https://github.com/user-attachments/assets/03b048bc-9299-4c6b-a084-57fbc3da9499" alt="증사 2" width="150" height="200"> | <img src="https://github.com/user-attachments/assets/44c5ca02-64c7-4a53-8e27-dc125462651d" alt="프로필" width="170" height="200"> | 
 | [채승표](https://github.com/py0o0)  | [홍진우](https://github.com/wqp99w)  |
 
 <br></br>
