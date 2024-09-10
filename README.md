@@ -1,22 +1,23 @@
 # 목차
 
 
-1. [주요 기능](#주요-기능)
+1. [프로젝트 소개](#프로젝트-소개)
 2. [다이어그램](#다이어그램)
-3. [아키텍쳐](#아키텍쳐)
-4. [기술 스택](#기술-스택)
+3. [기술 스택](#기술-스택)
+4. [주요 기능](#주요-기능)
+5. [Snapshot](#snapshot)
 
-
+<br></br>
 # 프로젝트 소개
 
 오늘은 무엇을 먹을지 고민하는 분들을 위한 사용자 맞춤형 음식 추천 어플입니다.
 
 이 앱은 사용자의 지역에서 실시간으로 제공되는 날씨 정보와 개인의 음식 선호도를 바탕으로 가중치를 조정하여 최적의 음식을 추천합니다. 또한, 추천된 음식에 맞춰 근처 식당 정보도 함께 제공하여 편리한 외식 옵션을 제시합니다.
-
+<br></br>
 ## 개발 기간
 
 24.05.09 ~ 24.05.30 (3주)
-
+<br></br>
 ## 팀원
 
 | Backend | Backend | 
@@ -24,25 +25,26 @@
 | <img src="https://github.com/user-attachments/assets/03b048bc-9299-4c6b-a084-57fbc3da9499" alt="증사 2" width="150" height="200"> | <img src="https://github.com/user-attachments/assets/44c5ca02-64c7-4a53-8e27-dc125462651d" alt="프로필" width="150" height="200"> | 
 | [채승표](https://github.com/py0o0)  | [홍진우](https://github.com/wqp99w)  |
 
-
+<br></br>
 ## 다이어그램
 
 - **Use Case Diagram**:
+<img src="https://github.com/user-attachments/assets/81dec1a2-777d-4826-b384-343f67a4da01" alt="UCD" width="100%" height="auto"> 
 
-
-
+<br></br>
 - **System Sequence Diagram**:
+<img src= "https://github.com/user-attachments/assets/367de53f-bfc0-4d08-8df8-18dfbfac6caa" alt="SSD" width="100%" height="auto">
+
+<br></br>
+- **Communication Diagram**:
+<img src= "https://github.com/user-attachments/assets/1ee8e171-394c-4416-83a8-4dff7156bacd" alt="CD" width="100%" height="auto"> 
 
 
-
-## 아키텍쳐
-
-
-
+<br></br>
 ## 기술 스택
+<img src= "https://github.com/user-attachments/assets/48e33715-5828-450a-90dd-caf96ea346b4" alt="기술스택" width="100%" height="auto"> 
 
-
-
+<br></br>
 ## 주요 기능
 
 - **서버와 DB 연동**: 
@@ -61,3 +63,10 @@
 - **음식 추천 알고리즘**: 
   - 현재 기온과 날씨 상태를 기반으로 음식 추천 가중치를 조정한 후, 최종적으로 음식을 랜덤으로 추천합니다.
   - **Ex)**: 더운 날씨에는 차가운 음식이, 추운 날씨에는 따뜻한 음식이 더 높은 확률로 추천됩니다.
+ <br></br>
+  ## Snapshot
+| 로그인 화면 | 회원가입 화면 | 
+|:-------:|:-------:|
+| <img src="https://github.com/user-attachments/assets/eb266025-eb90-4f14-a581-fdd5b490aac2" alt="Login 2" width="50%" height="auto"> | <img src="https://github.com/user-attachments/assets/58bb06c7-59ed-4105-b10a-a34df3866146" alt="CreateAcount" width="50%" height="auto"> | 
+| 메인 화면  | 추천 화면  |
+| <img src="https://github.com/user-attachments/assets/33886086-6a40-47b2-98d6-13082a73cb9b" alt="Main" width="50%" height="auto"> | <img src="https://github.com/user-attachments/assets/1106ad95-028b-401e-a598-f3962042beb9" alt="Recommand" width="50%" height="auto"> | 
