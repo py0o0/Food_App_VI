@@ -21,6 +21,8 @@
  ## Communication Diagram:
 <img src= "https://github.com/user-attachments/assets/1ee8e171-394c-4416-83a8-4dff7156bacd" alt="CD" width="100%" height="auto"> 
 
+ ## 테이블 스키마:
+ <img src= "https://github.com/user-attachments/assets/8a7d1278-1df2-417a-a179-80efa6994cc2" alt="DB" width="100%" height="auto"> 
 
 <br></br>
 # 기술 스택
