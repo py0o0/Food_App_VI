@@ -1,3 +1,4 @@
+<img src="https://github.com/user-attachments/assets/b2dd403c-0100-4f98-88e6-c55e5b286104" alt="제목" width="100%" height="auto"> 
 
 
 # 프로젝트 목적
