@@ -28,7 +28,7 @@
 # 기술 스택
 <img src= "https://github.com/user-attachments/assets/48e33715-5828-450a-90dd-caf96ea346b4" alt="기술스택" width="100%" height="auto"> 
 
-<br></br>
+<br></br><br></br><br></br><br></br><br></br><br></br>
 # 주요 기능
 
 - **로그인 기능**: 
@@ -74,7 +74,7 @@
 | POST       | `/api/users/create`            | -                                 | `User`    | `User`                        | 새 사용자를 생성합니다.                    |
 | GET        | `/api/foodsRandomByCategory`   | `cate1` (String), `cate2` (String) | -         | `Food`                        | 음식 카테고리로 랜덤 음식을 반환합니다.    |
 
-<br></br>
+<br></br><br></br><br></br><br></br><br></br><br></br>
 # Snapshot
 | 로그인 화면 | 회원가입 화면 | 
 |:-------:|:-------:|
