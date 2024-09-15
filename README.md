@@ -1,5 +1,15 @@
 <img src="https://github.com/user-attachments/assets/b2dd403c-0100-4f98-88e6-c55e5b286104" alt="제목" width="100%" height="auto"> 
 
+# 목차
+
+
+1. [프로젝트 목적](#프로젝트-목적)
+1. [프로젝트 소개](#프로젝트-소개)
+2. [기술 스택](#기술-스택)
+3. [주요 기능](#주요-기능)
+4. [API 명세](#api-명세)
+5. [Snapshot](#snapshot)
+<br></br>
 
 # 프로젝트 목적
 서버-클라이언트 구조로 통신하는 안드로이드 어플 제작
@@ -15,37 +25,31 @@
 24.05.09 ~ 24.05.30 (3주)
 <br></br>
 
-## 개발 기여도
+## 팀원
 
-
-**기능 설계 및 기획** : 50%
-
-
-**코드 작성 및 구현** : 100%
-
-
-프로젝트 진행 시, 기획과 계획 단계는 팀원 1명과 함께 구상하였습니다. 이후 코드 작성 및 구현 작업은 실시간 통화를 통해 진행하였으며, 각자 당일의 계획에 맞게 독립적으로 코드를 작성했습니다. 필요한 경우, 코드 작성 중에 도움이 필요하면 조언을 요청하는 형태로 협업을 진행하였습니다.
+| Backend | Backend | 
+|:-------:|:-------:|
+| <img src="https://github.com/user-attachments/assets/03b048bc-9299-4c6b-a084-57fbc3da9499" alt="증사 2" width="150" height="200"> | <img src="https://github.com/user-attachments/assets/44c5ca02-64c7-4a53-8e27-dc125462651d" alt="프로필" width="170" height="200"> | 
+| [채승표](https://github.com/py0o0)  | [홍진우](https://github.com/wqp99w)  |
 
 <br></br>
-
-
 
  ## Use Case Diagram:
 <img src="https://github.com/user-attachments/assets/81dec1a2-777d-4826-b384-343f67a4da01" alt="UCD" width="100%" height="auto"> 
-
-
 <br></br>
+
  ## Communication Diagram:
 <img src= "https://github.com/user-attachments/assets/1ee8e171-394c-4416-83a8-4dff7156bacd" alt="CD" width="100%" height="auto"> 
+<br></br>
 
  ## 테이블 스키마:
  <img src= "https://github.com/user-attachments/assets/8a7d1278-1df2-417a-a179-80efa6994cc2" alt="DB" width="100%" height="auto"> 
-
 <br></br>
+
 # 기술 스택
 <img src= "https://github.com/user-attachments/assets/48e33715-5828-450a-90dd-caf96ea346b4" alt="기술스택" width="100%" height="auto"> 
+<br></br>
 
-<br></br><br></br><br></br><br></br><br></br><br></br>
 # 주요 기능
 
 - **로그인 기능**: 
@@ -79,7 +83,6 @@
   <br></br>
 - **식당 정보 요청 기능**: 
   - 추천된 음식과 사용자의 위치를 쿼리로 하여, 주변 식당 정보를 네이버 Search API 통신을 통해 받아옵니다.
-
  <br></br>
 
 #  API 명세
@@ -90,8 +93,8 @@
 | GET        | `/api/users/Login`             | `id` (String), `password` (String) | -         | `Boolean`                     | 사용자 ID와 비밀번호로 로그인 성공 여부를 반환합니다. |
 | POST       | `/api/users/create`            | -                                 | `User`    | `User`                        | 새 사용자를 생성합니다.                    |
 | GET        | `/api/foodsRandomByCategory`   | `cate1` (String), `cate2` (String) | -         | `Food`                        | 음식 카테고리로 랜덤 음식을 반환합니다.    |
+<br></br>
 
-<br></br><br></br><br></br><br></br><br></br><br></br>
 # Snapshot
 | 로그인 화면 | 회원가입 화면 | 
 |:-------:|:-------:|
